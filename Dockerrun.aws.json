@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "frivolta/tea"
+    },
+    "Ports": [
+        {
+            "ContainerPort": 4000,
+            "HostPort": 4000
+        }
+    ],
+    "Logging": "/usr/local/glassfish5/glassfish/domains/domain1/logs"
+}
